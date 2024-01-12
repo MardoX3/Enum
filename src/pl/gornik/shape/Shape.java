@@ -1,4 +1,6 @@
-package pl.gornik;
+package pl.gornik.shape;
+
+import pl.gornik.shape.ColorType;
 
 public class Shape {
     private String name;

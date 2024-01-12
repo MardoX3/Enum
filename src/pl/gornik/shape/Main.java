@@ -1,4 +1,7 @@
-package pl.gornik;
+package pl.gornik.shape;
+
+import pl.gornik.shape.ColorType;
+import pl.gornik.shape.Shape;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +12,7 @@ public class Main {
         System.out.println("Enum!");
         Scanner scanner = new Scanner(System.in);
         List<Shape> shapes= new ArrayList<>();
-        shapes.add(new Shape("kwadrat",'M',ColorType.RED));
+        shapes.add(new Shape("kwadrat",'M', ColorType.RED));
         shapes.add(new Shape("Trójkąt",'L',ColorType.BLUE));
         shapes.add(new Shape("Koło",'M',ColorType.BLACK));
         shapes.add(new Shape("prostokąt",'S',ColorType.YELLOW));
